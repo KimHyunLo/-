@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+#wrap {}
+#header {
+  height: 325px;
+  background: #111;
+}
+#content {
+  height: 800px;
+  background: #222;
+}
+#footer {
+  height: 200px;
+  background: #333;
+}
