@@ -61,7 +61,6 @@
   width: 990px;
   margin: 0 auto;
   height: inherit;
-  background: rgba(255, 255, 255, 0.3);
 }
 
 /* 헤더 */
@@ -71,11 +70,31 @@
 .header .header-menu {
   text-align: right;
 }
-.header .header-menu a{
+.header .header-menu a {
   color: #fff;
   padding: 10px 0 10px 13px;
   display: inline-block;
 }
-.header .header-menu a{
+.header .header-menu a {
   color: #666;
+}
+.header .header-tit {
+  text-align: center;
+}
+.header .header-tit h1 {
+  background-color: #4aa8da;
+  font-size: 28px;
+  padding: 5px 20px 6px 20px;
+  margin-top: 40px;
+  color: #fff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.header .header-tit a {
+  display: inline-block;
+  background-color: #2698cb;
+  font-size: 18px;
+  color: #fff;
+  padding: 5px 20px 6px 20px;
+  margin-top: -5px;
 }
