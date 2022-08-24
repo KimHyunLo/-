@@ -22,15 +22,14 @@
 
 /* 레이아웃 */
 #wrap {
-  width: 100%
+
 }
 #header {
   height: 325px;
   background: url(../img/header_bg.jpg) center top repeat-x;
 }
 #content {
-  height: 800px;
-  background: #222;
+
 }
 #footer {
   height: 200px;
@@ -39,8 +38,7 @@
 
 /* 컨텐츠 레이아웃 */
 #cont_nav {
-  height: 200px;
-  background: #444;
+
 }
 #cont_tit {
   height: 200px;
@@ -64,9 +62,6 @@
 }
 
 /* 헤더 */
-.header {
-
-}
 .header .header-menu {
   text-align: right;
 }
@@ -132,4 +127,35 @@
 }
 .header .header-icon a.icon4:hover {
   background-position: -60px -180px;
+}
+
+/* 전체 메뉴 */
+.nav {
+  overflow: hidden;
+  padding: 30px 0;
+}
+.nav > div {
+  float: left;
+  width: 40%;
+}
+.nav > div.last {
+  width: 20%;
+}
+.nav > div h3 {
+  font-size: 18px;
+  color: #25a2d0;
+  margin-bottom: 4px;
+}
+.nav > div ol {
+  overflow: hidden;
+}
+.nav > div ol li {
+  float: left;
+  width: 50%;
+}
+.nav > div.last ol li {
+  width: 100%;
+}
+.nav > div ol li a:hover{
+  text-decoration: underline;
 }
