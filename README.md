@@ -13,10 +13,11 @@
 3. Footer
 
 ### Preview
-<img src="/preview.png" width="700px" alt="preview">
+<img src="/readme_img/preview.png" width="700px" alt="preview">
 
 ---
 
 # 1. Header
-<img src="/header.png" height="400px" alt="header">
+<img src="/readme_img/footer.png" height="400px" alt="header">
+
 ## 1.1 Header menu
