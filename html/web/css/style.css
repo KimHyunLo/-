@@ -21,15 +21,9 @@
 }
 
 /* 레이아웃 */
-#wrap {
-
-}
 #header {
   height: 325px;
   background: url(../img/header_bg.jpg) center top repeat-x;
-}
-#content {
-
 }
 #footer {
   border-top: 1px solid #eee;
