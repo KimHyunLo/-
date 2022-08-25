@@ -7,11 +7,9 @@
     <meta name="description" content="Web Standard Site" />
     <meta name="keywords" content="웹표준, 웹접근성" />
     <title>WEB STANDARD</title>
-
     <!-- CSS STYLE -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-
     <!-- 웹 폰트 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -66,7 +64,6 @@
         </div>
       </div>
       <!-- //header -->
-
       <div id="content">
         <div id="cont_nav">
           <div class="container">
@@ -640,7 +637,6 @@
         <!-- //cont_cont -->
       </div>
       <!-- //content -->
-
       <div id="footer">
         <div class="container">
           <h2 class="ir_su">푸터 영역</h2>
@@ -656,9 +652,7 @@
               <li><a href="#">게시중단요청 서비스</a></li>
               <li><a href="#">고객센터</a></li>
             </ul>
-            <address>
-              Copyright&copy;leeas016.dothome.co.kr All Right Rederved
-            </address>
+            <address>Copyright 2022. Hyun-lo_Kim all rights reserved.</address>
             <div class="w3c mt15">
               <a href="http://validator.w3.org/check?uri=referer">
                 <img
@@ -682,5 +676,20 @@
       <!-- //footer -->
     </div>
     <!-- //wrap -->
+    <!-- 스크립트 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(".tit .btn").click(function (e) {
+        e.preventDefault();
+        // $("#cont_nav").css("display", "block");
+        // $("#cont_nav").show();
+        // $("#cont_nav").fadeIn();
+        // $("#cont_nav").slideDown();
+        // $("#cont_nav").toggle();
+        // $("#cont_nav").fadeToggle();
+        $("#cont_nav").slideToggle(200);
+        $(this).toggleClass("on");
+      });
+    </script>
   </body>
 </html>
