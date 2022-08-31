@@ -1,8 +1,12 @@
 # 웹표준 사이트
 
-    웹표준을 준수하여 만든 사이트입니다.   
-    IR효과, W3C CSS&HTML 체크를 거쳤습니다.
-    사용한 라이브러리: slick, LightGallery, jQuery
+웹표준을 준수하여 만든 사이트입니다.   
+IR효과, W3C CSS&HTML 체크 등을 거쳤습니다
+
+사용한 라이브러리:   
+- slick   
+- LightGallery    
+- jQuery   
 
 ### 목차
 1. [Header](#1-header)   
